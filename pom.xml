@@ -5,9 +5,18 @@
   <artifactId>google-sheets-import-plugin</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>google-sheets-import-plugin Maven Mojo</name>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/pafoss/google-sheets-import-plugin</url>
 
   <packaging>maven-plugin</packaging>
+
+   <developers>
+    <developer>
+      <name>Alberto Alonso</name>
+      <email>alberto.alonso@paf.com</email>
+      <organization>Paf</organization>
+      <organizationUrl>https://aboutpaf.com</organizationUrl>
+    </developer>
+  </developers>
 
   <prerequisites>
     <maven>${maven.version}</maven>
